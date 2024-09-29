@@ -1,0 +1,41 @@
+.weather-card{
+    min-width: 400px;
+    margin: 100px auto;
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #721c24;
+}
+
+.search-input{
+    border-radius: 5px;
+}
+
+.search-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.weather-info{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #721c24;
+}
+
+.temparature{
+    font-weight: 2.5rem;
+    font-weight: bold;
+    color: #721c24;
+}
+
+.description{
+    margin-top: 5px;
+    color: #721c24;
+}
